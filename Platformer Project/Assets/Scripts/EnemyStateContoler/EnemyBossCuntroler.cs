@@ -86,7 +86,7 @@ public class EnemyBossCuntroler : EnemyArcherController
             case EnemyState.Hurt:
                 _attacking = false;
                 _enemyRB.velocity = Vector2.zero;
-                StopCoroutine("BeginNewCircle");
+                StopCoroutine(BeginNewCircle()); 
                 break;
         }
 

@@ -46,7 +46,7 @@ public class BaseGameMenuController : MonoBehaviour
     protected virtual void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape))
-              OnMenuCliked();
+            OnMenuCliked();
     }
    
     private void OnQuuitClicked()

@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class LvlButtonController : MonoBehaviour
 {
     private Button _button;
-    private TMP_Text _lvl;
-    private ServiceManager _serviceManager;
     [SerializeField] private Scenes scenes;
     void Start()
     {

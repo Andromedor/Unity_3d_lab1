@@ -40,8 +40,5 @@ public class InGameMenuController : BaseGameMenuController
     {
         ServiceManager.Instance.ChangeLvl((int)Scenes.MainMenu);
     }
-    protected override void Update()
-    {
-        base.Update();
-    }
+   
 }

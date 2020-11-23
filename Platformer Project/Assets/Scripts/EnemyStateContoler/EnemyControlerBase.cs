@@ -94,7 +94,7 @@ public abstract class EnemyControlerBase : MonoBehaviour
            // _currentHp = 0;
             
             ChangeState(EnemyState.Death);
-            //return;
+            return;
             
         }
         _hpSlider.value = _currentHp;

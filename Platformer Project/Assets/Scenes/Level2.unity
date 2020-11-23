@@ -445,7 +445,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -15.7, y: 0}
@@ -1628,6 +1628,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TX Village Props Gravestone D (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 893240089298104431, guid: da0a44c17be388947875c2c7a2c300e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 893240089298104464, guid: da0a44c17be388947875c2c7a2c300e6,
         type: 3}
       propertyPath: _speed
@@ -2308,6 +2313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TX Village Props Gravestone D (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 893240089298104431, guid: da0a44c17be388947875c2c7a2c300e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 893240089298104464, guid: da0a44c17be388947875c2c7a2c300e6,
         type: 3}
@@ -5619,7 +5629,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -15.7, y: 0}
@@ -6576,6 +6586,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TX Village Props Gravestone D (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 893240089298104431, guid: da0a44c17be388947875c2c7a2c300e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 893240089298104464, guid: da0a44c17be388947875c2c7a2c300e6,
         type: 3}
       propertyPath: _speed
@@ -7449,6 +7464,26 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
       propertyPath: m_Name
       value: Swing01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10937,6 +10972,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TX Village Props Gravestone D (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 893240089298104431, guid: da0a44c17be388947875c2c7a2c300e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 893240089298104465, guid: da0a44c17be388947875c2c7a2c300e6,
         type: 3}
       propertyPath: _damage
@@ -11820,6 +11860,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TX Village Props Gravestone D (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 893240089298104431, guid: da0a44c17be388947875c2c7a2c300e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 893240089298104465, guid: da0a44c17be388947875c2c7a2c300e6,
         type: 3}
@@ -13249,6 +13294,26 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
       propertyPath: m_Name
       value: Swing01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ce39822b2f0d7a34d88f92fce0958634, type: 3}
       propertyPath: m_LocalPosition.x

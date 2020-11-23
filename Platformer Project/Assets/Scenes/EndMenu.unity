@@ -6153,6 +6153,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5814218674944901687, guid: b0ae434efb842cf4482c9e3739dc12d3,
+        type: 3}
+      propertyPath: _sounds.Array.data[3].ClipName
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ae434efb842cf4482c9e3739dc12d3, type: 3}
 --- !u!1001 &7969000418775172150

@@ -13,7 +13,7 @@ public class MainMenuController : BaseGameMenuController
 
     [SerializeField] private GameObject _lvlMenu;
     [SerializeField] private Button _closeLvl;
-    int _lvl = 1;
+   private int _lvl = 1;
     protected override void Start()
     {
         base.Start();
