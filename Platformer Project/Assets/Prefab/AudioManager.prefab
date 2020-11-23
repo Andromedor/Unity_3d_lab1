@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5814218674944901685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5814218674944901686}
+  - component: {fileID: 5814218674944901687}
+  m_Layer: 5
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5814218674944901686
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814218674944901685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &5814218674944901687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814218674944901685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb847b5585751c45b00d73af8beba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sounds:
+  - AudioClip: {fileID: 8300000, guid: e561c9f0cfea72e4db68ca897eb8bf2c, type: 3}
+    Volume: 1
+    Pitch: 3
+    Loop: 0
+    ClipName: 0
+    AudioSource: {fileID: 0}
+  - AudioClip: {fileID: 8300000, guid: 7d60d956e2f9b0f48887d05c8ddacb3d, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    ClipName: 1
+    AudioSource: {fileID: 0}
+  - AudioClip: {fileID: 8300000, guid: 9de752cd0c7642d4b845e9605748bde2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    ClipName: 2
+    AudioSource: {fileID: 0}
+  - AudioClip: {fileID: 8300000, guid: 3e80b7f792dfd5940a009b8c92026119, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    ClipName: 3
+    AudioSource: {fileID: 0}
+  _audioMixerGroup: {fileID: 24300002, guid: 5ea97157ddbecde4c8008f29b413e08a, type: 2}
