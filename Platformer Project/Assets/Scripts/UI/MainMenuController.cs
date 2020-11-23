@@ -19,7 +19,7 @@ public class MainMenuController : BaseGameMenuController
         base.Start();
         _chooseLvl.onClick.AddListener(OnLvlMenuCliced);
         _closeLvl.onClick.AddListener(OnLvlMenuCliced);
-      //  PlayerPrefs.DeleteAll();
+     // PlayerPrefs.DeleteAll();
         if (PlayerPrefs.HasKey(GamePrefs.LastPlayerLvl.ToString()))
         {
             _play.GetComponentInChildren<TMP_Text>().text = "Resume";
